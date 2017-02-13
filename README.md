@@ -6,7 +6,7 @@ This is repo of some sample code of my personal game engine project. The repo st
 ### BoxCollider.cs
 Box collider implementing Collider interface. Simulate behaviors of box-shape colliders in physics environment.
 
-### SphereCollider.cs
+### SphericalCollider.cs
 Sphere collider implementing Collider interface. Simulate behaviors of spherical colliders in physics environment.
 
 ### PlaneCollider.cs
