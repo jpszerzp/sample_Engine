@@ -20,6 +20,9 @@ public class BoxCollider extends Collider {
 	private float width;	// in x direction
 	private Vector3f center;
 	
+	private Quaternion orientation;
+	private Transform localTransform;
+	
 	public BoxCollider (Vector3f end, float d, float h, float w) {
 		super(ColliderType.TYPE_BOX);
 		this.closeEnd = end;
@@ -61,7 +64,7 @@ public class BoxCollider extends Collider {
 			res = new IntersectionData (displacement.Dot(MathUtil.up) < 0, displacement);
 			break;
 		case TYPE_SPHERE:
-			// TODO:¡¡Box collider intersects with sphere collider
+			// TODO:Â¡Â¡Box collider intersects with sphere collider
 			logger.log(Level.WARNING, "Collision not implemented between BoxCollider and SphericalCollider; BoxCollider, intersectCollider(Collider other)");
 			res = null;
 			break;
