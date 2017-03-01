@@ -10,4 +10,4 @@ Box collider implementing Collider interface. Simulate behaviors of box-shape co
 Sphere collider implementing Collider interface. Simulate behaviors of spherical colliders in physics environment.
 
 ### PlaneCollider.cs
-Plane collider implementing Collider interface. Simulate behaviors of plane colliders in physics environment. TODO: for now there is a "thickness" built into this collider.
+Plane collider implementing Collider interface. Simulate behaviors of plane colliders in physics environment.
