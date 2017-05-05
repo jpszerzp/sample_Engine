@@ -26,4 +26,11 @@ Game Object abstraction of the game world. Each game object has encapsulation fo
 ### Math.h (and the general math module)
 Math support of the engine. Support manipulations on Vec2, 3 and 4, as well as general matrix operation. 
 
-### 
+### Renderer2D.cpp 
+2D renderer abstract class. The class is extended by fast batch renderer, naive shape-per-buffer renderer, and debugging wireframe renderer.
+
+### VertexArray.cpp
+The abstraction of vertex array object (VAO). Supports the batch-sending of vertices information to OpenGL buffer.
+
+### IndexBuffer.cpp
+Considering complexity and encapsulation of vertex data, this buffer respects extra info of vertices like colors and texture coord. By nature, this is another abstraction for OpenGL Index Buffer object (IBO).
